@@ -34,7 +34,7 @@ app.post("/",function(req,res){
     }
 
     const jsondata=JSON.stringify(data);
-    const url="https://us14.api.mailchimp.com/3.0/lists/40ab1e45a4c";
+    const url="https://us14.api.mailchimp.com/3.0/lists/40ab1e45a4";
 
     //IMP SYNTAX FOR https.request(url,options,callback function)
     //auth --- authentication=apikey
